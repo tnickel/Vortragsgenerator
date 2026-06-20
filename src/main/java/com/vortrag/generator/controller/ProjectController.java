@@ -74,7 +74,7 @@ public class ProjectController {
 
             // Copy PowerPoint from reference
             File pptxDest = new File(projectDir + "/Antigravity_Vortrag.pptx");
-            File pptxSrc = new File("D:/AntiGravitySoftware/GitWorkspace/VortragAntigravity/vortrag_Claude/Antigravity_Vortrag.pptx");
+            File pptxSrc = new File("./src/main/resources/examples/designer_vortrag/Antigravity_Vortrag.pptx");
             if (pptxSrc.exists() && !pptxDest.exists()) {
                 try {
                     Files.copy(pptxSrc.toPath(), pptxDest.toPath(), StandardCopyOption.REPLACE_EXISTING);
@@ -86,7 +86,7 @@ public class ProjectController {
 
             // Copy Video from reference
             File videoDest = new File(projectDir + "/Antigravity_Vortrag_Video.mp4");
-            File videoSrc = new File("D:/AntiGravitySoftware/GitWorkspace/VortragAntigravity/vortrag_Claude/Antigravity_Vortrag_Video.mp4");
+            File videoSrc = new File("./src/main/resources/examples/designer_vortrag/Antigravity_Vortrag_Video.mp4");
             if (videoSrc.exists() && !videoDest.exists()) {
                 try {
                     Files.copy(videoSrc.toPath(), videoDest.toPath(), StandardCopyOption.REPLACE_EXISTING);
@@ -98,7 +98,7 @@ public class ProjectController {
 
             // Copy Slide Images from reference
             File imagesDestDir = new File(projectDir + "/slides");
-            File imagesSrcDir = new File("D:/AntiGravitySoftware/GitWorkspace/VortragAntigravity/vortrag_Claude/temp_slides");
+            File imagesSrcDir = new File("./src/main/resources/examples/designer_vortrag/slides");
             if (imagesSrcDir.exists() && !imagesDestDir.exists()) {
                 imagesDestDir.mkdirs();
                 try {
@@ -112,6 +112,101 @@ public class ProjectController {
                     System.err.println("Could not copy example slides: " + e.getMessage());
                 }
             }
+
+            // Copy Slide Audio from reference
+            File audioDestDir = new File(projectDir + "/temp_audio");
+            File audioSrcDir = new File("./src/main/resources/examples/designer_vortrag/temp_audio");
+            if (audioSrcDir.exists() && !audioDestDir.exists()) {
+                audioDestDir.mkdirs();
+                try {
+                    File[] audios = audioSrcDir.listFiles();
+                    if (audios != null) {
+                        for (File aud : audios) {
+                            Files.copy(aud.toPath(), new File(audioDestDir, aud.getName()).toPath(), StandardCopyOption.REPLACE_EXISTING);
+                        }
+                    }
+                } catch (Exception e) {
+                    System.err.println("Could not copy example audios: " + e.getMessage());
+                }
+            }
+
+            projectRepository.save(project);
+        } else if (project.getId() == 3L) {
+            String projectDir = "./data/projects/3";
+            File dir = new File(projectDir);
+            if (!dir.exists()) {
+                dir.mkdirs();
+            }
+
+            // Copy PowerPoint from reference
+            File pptxDest = new File(projectDir + "/presentation.pptx");
+            File pptxSrc = new File("./src/main/resources/examples/vortragsgenerator/presentation.pptx");
+            if (pptxSrc.exists() && !pptxDest.exists()) {
+                try {
+                    Files.copy(pptxSrc.toPath(), pptxDest.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                    project.setPptxFilePath(pptxDest.getPath());
+                } catch (Exception e) {
+                    System.err.println("Could not copy example PPTX: " + e.getMessage());
+                }
+            }
+
+            // Copy Video from reference
+            File videoDest = new File(projectDir + "/presentation_video.mp4");
+            File videoSrc = new File("./src/main/resources/examples/vortragsgenerator/presentation_video.mp4");
+            if (videoSrc.exists() && !videoDest.exists()) {
+                try {
+                    Files.copy(videoSrc.toPath(), videoDest.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                    project.setVideoFilePath(videoDest.getPath());
+                } catch (Exception e) {
+                    System.err.println("Could not copy example Video: " + e.getMessage());
+                }
+            }
+
+            // Copy Slides JSON from reference
+            File jsonDest = new File(projectDir + "/slides.json");
+            File jsonSrc = new File("./src/main/resources/examples/vortragsgenerator/slides.json");
+            if (jsonSrc.exists() && !jsonDest.exists()) {
+                try {
+                    Files.copy(jsonSrc.toPath(), jsonDest.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                } catch (Exception e) {
+                    System.err.println("Could not copy example slides.json: " + e.getMessage());
+                }
+            }
+
+            // Copy Slide Images from reference
+            File imagesDestDir = new File(projectDir + "/slides");
+            File imagesSrcDir = new File("./src/main/resources/examples/vortragsgenerator/slides");
+            if (imagesSrcDir.exists() && !imagesDestDir.exists()) {
+                imagesDestDir.mkdirs();
+                try {
+                    File[] images = imagesSrcDir.listFiles();
+                    if (images != null) {
+                        for (File img : images) {
+                            Files.copy(img.toPath(), new File(imagesDestDir, img.getName()).toPath(), StandardCopyOption.REPLACE_EXISTING);
+                        }
+                    }
+                } catch (Exception e) {
+                    System.err.println("Could not copy example slides: " + e.getMessage());
+                }
+            }
+
+            // Copy Slide Audio from reference
+            File audioDestDir = new File(projectDir + "/audio");
+            File audioSrcDir = new File("./src/main/resources/examples/vortragsgenerator/audio");
+            if (audioSrcDir.exists() && !audioDestDir.exists()) {
+                audioDestDir.mkdirs();
+                try {
+                    File[] audios = audioSrcDir.listFiles();
+                    if (audios != null) {
+                        for (File aud : audios) {
+                            Files.copy(aud.toPath(), new File(audioDestDir, aud.getName()).toPath(), StandardCopyOption.REPLACE_EXISTING);
+                        }
+                    }
+                } catch (Exception e) {
+                    System.err.println("Could not copy example audios: " + e.getMessage());
+                }
+            }
+
             projectRepository.save(project);
         }
     }
