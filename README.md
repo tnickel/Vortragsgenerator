@@ -36,6 +36,15 @@ Das System nutzt eine integrierte Architektur aus Java-Backend, SQL-Datenbank, K
 
 ---
 
+## 🎁 Vorinstallierte Beispiele (Out-of-the-box Seeding)
+
+Das Projekt wird mit zwei fertig gerenderten Präsentationen ausgeliefert. Beim ersten Start der Anwendung werden diese Beispiele automatisch aus den Ressourcen in Ihr lokales Datenverzeichnis (`./data/projects/`) kopiert, sodass Sie die Anwendung sofort testen können, ohne API-Schlüssel für OpenRouter oder ElevenLabs hinterlegen zu müssen:
+
+1. **Antigravity - Einführung für Designer** (Projekt-ID 1): Eine bildhafte und lockere Einführung in KI-Agenten, Systemdiagnosen und die Automatisierung von Bewerbungs-Pipelines.
+2. **Vortragsgenerator - Der Überblick** (Projekt-ID 3): Eine umfassende, 20 Folien lange Präsentation, die alle Funktionen dieses Tools für Nicht-Techniker verständlich erklärt – inklusive fertiger PowerPoint-Datei, Folienbilder, Audiospuren und des kompletten Videos.
+
+---
+
 ## 🗄️ Datenbank-Schema (H2)
 
 Die relationale Datenhaltung ist wie folgt aufgebaut:
