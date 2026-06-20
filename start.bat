@@ -1,5 +1,12 @@
 @echo off
 title Vortragsgenerator Webserver
+
+rem Lade Umgebungsvariablen aus .env Datei (falls vorhanden)
+if exist .env (
+    echo Lade Umgebungsvariablen aus .env...
+    for /f "usebackq tokens=*" %%i in (`findstr /v "^#" .env`) do set %%i
+)
+
 echo ===================================================
 echo   Vortragsgenerator Webserver wird gestartet
 echo ===================================================

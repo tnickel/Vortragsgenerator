@@ -19,6 +19,10 @@ data/vortrag_db.lock.db
 data/projects/
 data/image_sets/
 
+# Local Environment Secrets
+.env
+.env.tmp
+
 # OS specific files
 Thumbs.db
 ehthumbs.db

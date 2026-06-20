@@ -1,7 +1,7 @@
 -- Seed Settings (upsert by unique key_name)
 MERGE INTO settings (key_name, val_value) KEY(key_name) VALUES 
-('ELEVENLABS_API_KEY', 'YOUR_ELEVENLABS_API_KEY'),
-('ELEVENLABS_VOICE_ID', 'YOUR_ELEVENLABS_VOICE_ID'),
+('ELEVENLABS_API_KEY', ''),
+('ELEVENLABS_VOICE_ID', ''),
 ('OPENROUTER_MODEL', 'anthropic/claude-opus-4.8');
 
 -- Seed Prompt History (upsert by ID)
