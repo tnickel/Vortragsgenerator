@@ -1,0 +1,368 @@
+{
+  "title": "cybersecurity Teil 1 Anfänger",
+  "subtitle": "Ein praktischer Leitfaden für den sicheren digitalen Alltag",
+  "slides": [
+    {
+      "slide_number": 1,
+      "title": "Cybersecurity für Anfänger",
+      "subtitle": "Sicher im digitalen Alltag - Einfache Schutzmaßnahmen für jeden",
+      "bullets": [
+        "Warum IT-Sicherheit uns alle angeht",
+        "Keine technischen Vorkenntnisse nötig",
+        "Praktische Tipps zur sofortigen Umsetzung",
+        "Schutz vor den häufigsten Gefahren im Netz"
+      ],
+      "notes": "Herzlich willkommen zum ersten Teil unserer Reihe über Cybersecurity für Anfänger! Im heutigen digitalen Zeitalter verbringen wir einen großen Teil unseres Lebens online. Ob Online-Shopping, Banking oder soziale Medien – unsere Daten sind überall. In dieser Präsentation zeige ich Ihnen, wie Sie sich ganz einfach vor Gefahren schützen können. Keine Sorge: Sie müssen kein IT-Experte sein, um diese Tipps umzusetzen. Lassen Sie uns anfangen!",
+      "image_name": "cyber_title.png",
+      "type": "title"
+    },
+    {
+      "slide_number": 2,
+      "title": "Was ist Cybersecurity?",
+      "bullets": [
+        "Schutz von Geräten, Netzwerken und Daten",
+        "Abwehr von unerlaubtem Zugriff",
+        "Sicherung der Privatsphäre im Netz",
+        "Es betrifft Laptops, Handys und Smart Homes"
+      ],
+      "notes": "Was genau verbirgt sich eigentlich hinter dem Begriff 'Cybersecurity' oder Cybersicherheit? Kurz gesagt geht es darum, unsere digitalen Geräte, Netzwerke und vor allem unsere persönlichen Daten vor unbefugtem Zugriff und Diebstahl zu schützen. Das betrifft nicht nur große Konzerne, sondern jeden Einzelnen von uns – vom Smartphone in der Hosentasche bis hin zum vernetzten Fernseher im Wohnzimmer.",
+      "image_name": "cyber_intro.png"
+    },
+    {
+      "slide_number": 3,
+      "title": "Die Schwachstelle Mensch",
+      "bullets": [
+        "Hacker greifen selten direkt Systeme an",
+        "Manipulation durch 'Social Engineering'",
+        "Ausnutzung von Neugier, Angst oder Zeitdruck",
+        "Gesunder Menschenverstand als bester Schutz"
+      ],
+      "notes": "Viele Menschen denken bei Cyber-Angriffen an hochkomplizierten Code und Hacker, die sich durch Firewalls graben. In der Realität ist die größte Schwachstelle jedoch der Mensch. Angreifer nutzen Psychologie, um uns zu manipulieren – das nennt man Social Engineering. Sie erzeugen künstlichen Zeitdruck, nutzen unsere Neugier aus oder spielen mit unserer Angst, um uns zur Herausgabe von Passwörtern zu bewegen.",
+      "image_name": "cyber_social_engineering.png"
+    },
+    {
+      "slide_number": 4,
+      "title": "Sichere Passwörter",
+      "bullets": [
+        "Keine einfachen Wörter oder Zahlenfolgen",
+        "Mindestens 12 Zeichen Länge",
+        "Mischung aus Groß- und Kleinbuchstaben, Zahlen & Sonderzeichen",
+        "Für jedes Konto ein eigenes, einzigartiges Passwort"
+      ],
+      "notes": "Der erste und wichtigste Schritt für Ihre Sicherheit ist ein starkes Passwort. Ein Passwort wie '123456' oder der Name Ihres Haustiers ist innerhalb von Millisekunden geknackt. Ein sicheres Passwort sollte mindestens 12 Zeichen lang sein und eine wilde Mischung aus Buchstaben, Zahlen und Sonderzeichen enthalten. Ganz wichtig: Verwenden Sie niemals dasselbe Passwort für mehrere Konten!",
+      "image_name": "cyber_passwords.png"
+    },
+    {
+      "slide_number": 5,
+      "title": "Der Passwort-Manager",
+      "bullets": [
+        "Niemand kann sich 50 komplexe Passwörter merken",
+        "Sichere, verschlüsselte Ablage all deiner Zugangsdaten",
+        "Generierung von extrem sicheren Zufallspasswörtern",
+        "Du musst dir nur noch ein einziges Master-Passwort merken"
+      ],
+      "notes": "Ich weiß, was Sie jetzt denken: Wer soll sich bitteschön 50 verschiedene, komplizierte Passwörter merken? Die Lösung heißt: Passwort-Manager. Das ist ein digitaler Tresor, der alle Ihre Passwörter verschlüsselt speichert und bei Bedarf automatisch auf Websites einträgt. Sie müssen sich ab sofort nur noch ein einziges, wirklich starkes Hauptpasswort merken. Den Rest erledigt der Manager für Sie.",
+      "image_name": "cyber_manager.png"
+    },
+    {
+      "slide_number": 6,
+      "title": "Zwei-Faktor-Authentisierung (2FA)",
+      "bullets": [
+        "Der doppelte Riegel für deine Konten",
+        "Passwort plus ein zweiter Code (z.B. per App oder SMS)",
+        "Hacker kommen selbst mit bekanntem Passwort nicht rein",
+        "Unbedingt überall aktivieren, wo es angeboten wird"
+      ],
+      "notes": "Selbst wenn ein Hacker Ihr Passwort herausfindet, gibt es einen extrem effektiven Schutz: die Zwei-Faktor-Authentisierung, kurz 2FA. Hierbei müssen Sie den Login zusätzlich über ein zweites Gerät bestätigen, meist durch einen Einmalcode auf Ihrem Smartphone. Es ist wie eine zusätzliche Sicherheitstür vor Ihrem digitalen Zuhause. Aktivieren Sie dieses Feature überall, besonders bei E-Mails und Bankkonten.",
+      "image_name": "cyber_2fa.png"
+    },
+    {
+      "slide_number": 7,
+      "title": "Phishing-Mails erkennen",
+      "bullets": [
+        "Gefälschte E-Mails, die wie offizielle Schreiben aussehen",
+        "Dringender Handlungsbedarf wird vorgetäuscht",
+        "Falsche Absender-Adressen und Rechtschreibfehler",
+        "Banken fordern niemals Zugangsdaten per E-Mail an"
+      ],
+      "notes": "Phishing ist eine der häufigsten Methoden, mit der Betrüger an unsere Daten gelangen. Dabei senden sie uns gefälschte E-Mails, die täuschend echt aussehen – angeblich von der Sparkasse, Amazon oder Paketdiensten. Oft steht dort, dass das Konto gesperrt wird, wenn man nicht sofort klickt. Achten Sie auf merkwürdige Absenderadressen und denken Sie daran: Seriöse Unternehmen fordern Sie niemals per Mail zur Passworteingabe auf.",
+      "image_name": "cyber_phishing.png"
+    },
+    {
+      "slide_number": 8,
+      "title": "Gefährliche Links & Anhänge",
+      "bullets": [
+        "Links führen auf manipulierte Fake-Webseiten",
+        "Anhänge enthalten Schadsoftware (z.B. getarnt als Rechnung)",
+        "Vor dem Klicken: Link-Adresse durch Hovern prüfen",
+        "Im Zweifel beim Absender auf anderem Weg nachfragen"
+      ],
+      "notes": "Klicken Sie niemals unüberlegt auf Links oder Anhänge in E-Mails, deren Herkunft Sie nicht absolut sicher kennen. Ein Anhang, der wie eine PDF-Rechnung aussieht, kann in Wahrheit ein Schadprogramm sein. Wenn Sie den Mauszeiger über einen Link bewegen, ohne zu klicken, sehen Sie die echte Zieladresse. Sieht diese verdächtig aus? Finger weg!",
+      "image_name": "cyber_links.png"
+    },
+    {
+      "slide_number": 9,
+      "title": "Vorsicht bei Downloads",
+      "bullets": [
+        "Schadsoftware tarnt sich als nützliches Programm",
+        "Downloads nur von offiziellen Herstellerseiten",
+        "Vorsicht bei kostenlosen Premium-Versionen (Cracks)",
+        "Lies die Berechtigungen bei App-Installationen durch"
+      ],
+      "notes": "Wenn Sie Programme oder Apps herunterladen, nutzen Sie immer die offiziellen Quellen wie den Google Play Store, den Apple App Store oder direkt die Webseiten der Hersteller. Illegale Downloads, sogenannte Cracks, die kostenpflichtige Software gratis anbieten, sind fast immer mit Viren oder Spionage-Software infiziert. Seien Sie hier besonders vorsichtig.",
+      "image_name": "cyber_downloads.png"
+    },
+    {
+      "slide_number": 10,
+      "title": "Die Macht der Software-Updates",
+      "bullets": [
+        "Updates schließen neu entdeckte Sicherheitslücken",
+        "Hacker nutzen bekannte Lücken in veralteter Software aus",
+        "Automatische Updates für Betriebssystem und Apps aktivieren",
+        "Updates nicht wochenlang vor sich herschieben"
+      ],
+      "notes": "Wir alle kennen die nervigen Benachrichtigungen, dass ein Systemupdate bereitsteht. Doch diese Updates sind keine Schikane der Entwickler, sondern extrem wichtig. Sie schließen Sicherheitslücken, die von Hackern entdeckt wurden. Wer Updates hinauszögert, lässt die digitale Haustür für Angreifer offen stehen. Aktivieren Sie am besten automatische Updates für alle Ihre Geräte.",
+      "image_name": "cyber_updates.png"
+    },
+    {
+      "slide_number": 11,
+      "title": "Malware, Viren & Trojaner",
+      "bullets": [
+        "Sammelbegriff für jede Art von Schadsoftware (Malware)",
+        "Viren verbreiten sich selbstständig auf dem Computer",
+        "Trojaner tarnen sich als nützliche Dateien",
+        "Ziel: Daten stehlen, Passwörter mitlesen oder zerstören"
+      ],
+      "notes": "Unter dem Begriff 'Malware' fassen Experten alle Arten von bösartiger Software zusammen. Dazu gehören klassische Computerviren, die Dateien beschädigen, und Trojaner, die sich als nützliche Programme tarnen, im Hintergrund aber Spionage betreiben. Das Ziel der Angreifer ist meistens finanzieller Natur oder der Diebstahl Ihrer digitalen Identität.",
+      "image_name": "cyber_malware.png"
+    },
+    {
+      "slide_number": 12,
+      "title": "Ransomware (Erpressungs-Trojaner)",
+      "bullets": [
+        "Verschlüsselt alle deine persönlichen Dateien",
+        "Hacker fordern Lösegeld (oft in Bitcoin) für Entschlüsselung",
+        "Keine Garantie, dass man seine Daten nach Zahlung zurückbekommt",
+        "Schutz durch regelmäßige, externe Datensicherungen"
+      ],
+      "notes": "Eine besonders fiese Art von Schadsoftware ist Ransomware. Sobald diese auf Ihren Computer gelangt, verschlüsselt sie all Ihre Fotos, Dokumente und Videos. Anschließend erscheint eine Erpressernote auf dem Bildschirm: Sie sollen Lösegeld zahlen, um Ihre Daten wiederzubekommen. Experten raten dringend von einer Zahlung ab, da man den Kriminellen nicht vertrauen kann. Der beste Schutz dagegen sind regelmäßige Backups.",
+      "image_name": "cyber_ransomware.png"
+    },
+    {
+      "slide_number": 13,
+      "title": "Antiviren-Programme",
+      "bullets": [
+        "Scannen Dateien und blockieren bekannte Schädlinge",
+        "Windows Defender bietet bereits einen sehr guten Basisschutz",
+        "Updates der Virendefinitionen müssen täglich erfolgen",
+        "Zusätzliche Wachsamkeit ersetzt kein Antiviren-Tool"
+      ],
+      "notes": "Ein gutes Antiviren-Programm ist wie ein digitaler Wachhund auf Ihrem Computer. Es scannt im Hintergrund heruntergeladene Dateien und blockiert bekannte Viren, bevor diese Schaden anrichten können. Unter Windows ist der integrierte Windows Defender bereits hervorragend und für die meisten Privatanwender völlig ausreichend. Wichtig ist nur, dass er aktiv bleibt.",
+      "image_name": "cyber_intro.png"
+    },
+    {
+      "slide_number": 14,
+      "title": "Die Firewall als Türsteher",
+      "bullets": [
+        "Überwacht den ein- und ausgehenden Datenverkehr",
+        "Blockiert verdächtige Verbindungen aus dem Internet",
+        "Verhindert, dass Schadsoftware Daten nach Hause sendet",
+        "In fast jedem modernen Router und Betriebssystem integriert"
+      ],
+      "notes": "Die Firewall fungiert als strenger Türsteher für Ihren Computer. Sie kontrolliert ununterbrochen, welche Daten aus dem Internet auf Ihren Rechner gelangen wollen und welche Programme Daten ins Netz senden. Verdächtige Verbindungsversuche werden sofort blockiert. Stellen Sie sicher, dass Ihre Betriebssystem-Firewall immer eingeschaltet ist.",
+      "image_name": "cyber_firewall.png"
+    },
+    {
+      "slide_number": 15,
+      "title": "Gefahren im öffentlichen WLAN",
+      "bullets": [
+        "Datenverkehr in freien Netzen kann leicht mitgelesen werden",
+        "Gefahr von gefälschten Hotspots ('Man-in-the-Middle')",
+        "Kein Online-Banking oder Passworteingaben in freien Netzen",
+        "Nutze stattdessen das mobile Datenvolumen deines Handys"
+      ],
+      "notes": "Kostenloses WLAN im Café, am Bahnhof oder Flughafen ist praktisch, birgt aber große Risiken. Da diese Netzwerke unverschlüsselt sind, können geschickte Angreifer im selben Netzwerk Ihren Datenverkehr mitlesen. Manchmal erstellen Betrüger auch eigene Netzwerke mit Namen wie 'Freies_Café_WLAN', um Ihre Passwörter abzufangen. Vermeiden Sie sensible Transaktionen in solchen Netzen.",
+      "image_name": "cyber_wifi.png"
+    },
+    {
+      "slide_number": 16,
+      "title": "VPN (Virtual Private Network)",
+      "bullets": [
+        "Verschlüsselt deinen gesamten Internetverkehr",
+        "Erstellt einen abhörsicheren Tunnel durch das Netzwerk",
+        "Schützt deine Daten auch in ungesicherten, öffentlichen WLANs",
+        "Anbieter sorgfältig auswählen (auf Datenschutz achten)"
+      ],
+      "notes": "Wenn Sie unterwegs unbedingt ein öffentliches WLAN nutzen müssen, sollten Sie ein VPN verwenden. Ein Virtual Private Network baut einen abhörsicheren, verschlüsselten Tunnel zwischen Ihrem Gerät und dem Internet auf. Selbst wenn jemand den Datenverkehr abfängt, sieht er nur unlesbaren Zeichensalat. Es ist der perfekte Schutzschild für unterwegs.",
+      "image_name": "cyber_vpn.png"
+    },
+    {
+      "slide_number": 17,
+      "title": "Heim-WLAN absichern",
+      "bullets": [
+        "Standard-Passwort des Routers unbedingt ändern",
+        "WLAN-Name (SSID) sollte keine Rückschlüsse auf dich zulassen",
+        "Verschlüsselungsmethode WPA3 oder mindestens WPA2 wählen",
+        "Gäste-Netzwerk für Freunde und Besucher einrichten"
+      ],
+      "notes": "Auch Ihr heimisches Netzwerk muss geschützt werden. Der Router ist das Tor zu all Ihren Geräten zu Hause. Ändern Sie das voreingestellte Passwort auf der Rückseite des Routers und wählen Sie eine moderne Verschlüsselung wie WPA2 oder WPA3. Für Freunde und Besucher empfiehlt es sich, ein separates Gäste-WLAN einzurichten, damit diese keinen Zugriff auf Ihre privaten Geräte haben.",
+      "image_name": "cyber_wifi.png"
+    },
+    {
+      "slide_number": 18,
+      "title": "Mobile Sicherheit (Smartphones)",
+      "bullets": [
+        "Handys sind heute beliebtere Angriffsziele als PCs",
+        "Sichere Bildschirmsperre einrichten (Code, Fingerabdruck, FaceID)",
+        "Apps nur aus offiziellen Stores herunterladen",
+        "Vorsicht vor Phishing-SMS (sogenanntes 'Smishing')"
+      ],
+      "notes": "Unsere Smartphones enthalten oft noch sensiblere Daten als unsere Computer. Richten Sie eine PIN, einen Fingerabdruck-Scan oder Gesichtserkennung ein, damit bei Verlust niemand an Ihre Daten kommt. Seien Sie zudem vorsichtig bei SMS, die Sie angeblich zur Paketverfolgung oder wegen einer Steuerrückzahlung auffordern – das ist SMS-Phishing, auch Smishing genannt.",
+      "image_name": "cyber_mobile.png"
+    },
+    {
+      "slide_number": 19,
+      "title": "Privatsphäre in Social Media",
+      "bullets": [
+        "Hacker sammeln Informationen für gezielte Angriffe",
+        "Privatsphäre-Einstellungen restriktiv konfigurieren",
+        "Vorsicht bei der Angabe von Geburtsdaten, Wohnort oder Urlaubsplänen",
+        "Nicht jede Freundschaftsanfrage von Unbekannten annehmen"
+      ],
+      "notes": "Soziale Netzwerke sind eine Goldgrube für Cyberkriminelle. Sie nutzen dort veröffentlichte Details wie den Namen Ihres Haustieres, Ihren Geburtsort oder Urlaubszeiten, um Passwörter zu erraten oder maßgeschneiderte Phishing-Angriffe gegen Sie zu starten. Stellen Sie Ihre Profile auf 'Privat' und überlegen Sie genau, was Sie öffentlich teilen.",
+      "image_name": "cyber_social.png"
+    },
+    {
+      "slide_number": 20,
+      "title": "Warum Backups Pflicht sind",
+      "bullets": [
+        "Festplattenschäden, Diebstahl oder Viren bedrohen deine Daten",
+        "Ein Backup ist eine Sicherheitskopie an einem anderen Ort",
+        "Wer kein Backup hat, verliert im Ernstfall alle Dokumente & Fotos",
+        "Regelmäßige Sicherungen am besten automatisieren"
+      ],
+      "notes": "Es gibt eine goldene Regel in der IT: Kein Backup, kein Mitleid. Datenverlust kann jeden treffen – sei es durch einen Hardware-Defekt, den Diebstahl des Laptops oder eine Ransomware-Infektion. Ein Backup ist eine vollständige Kopie Ihrer wichtigsten Daten auf einem externen Speichergerät oder in einer sicheren Cloud. Machen Sie Backups zur regelmäßigen Gewohnheit.",
+      "image_name": "cyber_backup.png"
+    },
+    {
+      "slide_number": 21,
+      "title": "Die 3-2-1 Backup-Regel",
+      "bullets": [
+        "3 Kopien aller wichtigen Daten erstellen",
+        "2 verschiedene Speichermedien nutzen (z.B. Festplatte + Cloud)",
+        "1 Kopie an einem externen Ort aufbewahren (außerhalb des Hauses)",
+        "So bist du auch gegen Brand oder Diebstahl geschützt"
+      ],
+      "notes": "Die bewährte 3-2-1 Backup-Regel garantiert maximale Sicherheit. Sie besagt: Erstellen Sie 3 Kopien Ihrer Daten, speichern Sie diese auf 2 verschiedenen Medien (zum Beispiel Ihrem Computer und einer externen USB-Festplatte) und bewahren Sie 1 Kopie an einem anderen Ort auf – etwa in einer sicheren Cloud oder bei Verwandten. So sind Ihre Daten selbst bei einem Wohnungsbrand gerettet.",
+      "image_name": "cyber_backup.png"
+    },
+    {
+      "slide_number": 22,
+      "title": "Sicheres Online-Banking",
+      "bullets": [
+        "Niemals über öffentliche Computer oder WLANs einloggen",
+        "Achte immer auf das Schlosssymbol in der Browserzeile",
+        "Nutze Push-TAN-Verfahren statt unsicherer SMS-Freigaben",
+        "Tägliche Verfügungslimits bei der Bank einrichten"
+      ],
+      "notes": "Online-Banking erfordert höchste Aufmerksamkeit. Nutzen Sie dafür niemals öffentliche Netzwerke. Prüfen Sie immer die Internetadresse in Ihrem Browser – sie muss exakt mit der Adresse Ihrer Bank übereinstimmen und das sichere HTTPS-Protokoll aufweisen. Verwenden Sie moderne Freigabeverfahren über gesicherte Apps Ihrer Bank anstelle von SMS-Freigaben.",
+      "image_name": "cyber_passwords.png"
+    },
+    {
+      "slide_number": 23,
+      "title": "Identitätsdiebstahl im Netz",
+      "bullets": [
+        "Kriminelle bestellen Waren oder eröffnen Konten in deinem Namen",
+        "Gefahr durch geleakte E-Mail-Adressen und Passwörter",
+        "Überprüfe deine Daten auf Webseiten wie 'Have I Been Pwned'",
+        "Verdächtige Aktivitäten sofort der Polizei und Bank melden"
+      ],
+      "notes": "Wenn Betrüger an Ihren Namen, Ihr Geburtsdatum und eventuell Ausweiskopien gelangen, können sie Ihre Identität missbrauchen. Sie schließen Verträge ab, bestellen teure Elektronik oder eröffnen Konten für illegale Geschäfte. Auf der Website 'Have I Been Pwned' können Sie kostenlos prüfen, ob Ihre E-Mail-Adresse bereits bei einem Datenleck im Internet gestohlen wurde.",
+      "image_name": "cyber_social_engineering.png"
+    },
+    {
+      "slide_number": 24,
+      "title": "Smart Home & IoT-Sicherheit",
+      "bullets": [
+        "Saugroboter, Kameras & smarte Lampen sind oft schlecht geschützt",
+        "Häufig nutzen diese Geräte unsichere Standard-Passwörter",
+        "Smarte Geräte in ein separates Gäste-WLAN einbinden",
+        "Firmware der Smart-Home-Geräte regelmäßig aktualisieren"
+      ],
+      "notes": "Vernetzte Haushaltsgeräte, das sogenannte Internet of Things, machen unser Leben bequemer, sind aber oft schlecht gegen Angriffe geschützt. Ein gehackter Saugroboter oder eine smarte Überwachungskamera kann Angreifern den Weg in Ihr restliches Heimnetzwerk ebnen. Ändern Sie auch hier alle Standardpasswörter und trennen Sie diese Geräte über das Gäste-WLAN vom restlichen Netz.",
+      "image_name": "cyber_intro.png"
+    },
+    {
+      "slide_number": 25,
+      "title": "Datenverschlüsselung (HTTPS)",
+      "bullets": [
+        "HTTP überträgt Daten unverschlüsselt im Klartext",
+        "HTTPS verschlüsselt die Verbindung zwischen Browser und Server",
+        "Erkennbar am grünen Vorhängeschloss in der Adressleiste",
+        "Niemals persönliche Daten auf Webseiten ohne HTTPS eingeben"
+      ],
+      "notes": "Achten Sie beim Surfen im Internet immer auf das Protokoll HTTPS in der Adressleiste. Das 'S' steht für 'Secure', also sicher. HTTPS stellt sicher, dass alle Daten, die Sie an die Website senden (wie Passwörter oder Kreditkartennummern), verschlüsselt übertragen werden. Webseiten ohne dieses Schloss sind unsicher – geben Sie dort niemals vertrauliche Daten ein.",
+      "image_name": "cyber_vpn.png"
+    },
+    {
+      "slide_number": 26,
+      "title": "Physische Sicherheit",
+      "bullets": [
+        "Sperre deinen Computer immer, wenn du den Platz verlässt",
+        "Tastaturkombination: [Windows-Taste] + [L] auf Windows-Systemen",
+        "Blickschutzfolien in Zügen oder Cafés verwenden",
+        "Lasse Laptops und Handys niemals unbeaufsichtigt liegen"
+      ],
+      "notes": "Cybersecurity beginnt in der realen Welt. Wenn Sie an Ihrem Arbeitsplatz, in der Universität oder im Café Ihren Computer auch nur für eine Minute verlassen, sperren Sie den Bildschirm. Unter Windows geht das blitzschnell mit der Tastenkombination Windows-Taste und L. Ein unbeaufsichtigtes, entsperrtes Gerät ist eine Einladung für Datendiebe.",
+      "image_name": "cyber_passwords.png"
+    },
+    {
+      "slide_number": 27,
+      "title": "Gefahren durch USB-Sticks",
+      "bullets": [
+        "Präparierte USB-Sticks können Schadcode sofort ausführen",
+        "Hacker hinterlassen absichtlich USB-Sticks auf Parkplätzen",
+        "Stecke niemals einen gefundenen oder unbekannten USB-Stick an",
+        "USB-Sticks können die Hardware des PCs komplett zerstören"
+      ],
+      "notes": "Eine beliebte Masche von Hackern ist es, infizierte USB-Sticks scheinbar zufällig auf Firmenparkplätzen oder in Fluren zu verlieren. Die Neugier der Finder führt oft dazu, dass der Stick am Computer angeschlossen wird. In diesem Moment installiert sich unbemerkt Schadcode. Stecken Sie niemals unbekannte USB-Sticks in Ihre Geräte – die Gefahr ist riesig.",
+      "image_name": "cyber_usb.png"
+    },
+    {
+      "slide_number": 28,
+      "title": "Sicherer Browser & Add-ons",
+      "bullets": [
+        "Verwende moderne, sichere Browser (z.B. Chrome, Firefox, Edge)",
+        "Adblocker schützen vor bösartiger Werbung (Malvertising)",
+        "Halte den Browser durch regelmäßige Updates aktuell",
+        "Vorsicht bei der Installation von unnötigen Browser-Erweiterungen"
+      ],
+      "notes": "Ihr Webbrowser ist das wichtigste Fenster zum Internet. Nutzen Sie einen modernen und stets aktualisierten Browser. Die Installation eines seriösen Adblockers schützt Sie nicht nur vor nerviger Werbung, sondern blockiert auch oft mit Werbebanner manipulierte Webseiten, die Schadcode enthalten. Installieren Sie nur Erweiterungen, die Sie wirklich benötigen.",
+      "image_name": "cyber_links.png"
+    },
+    {
+      "slide_number": 29,
+      "title": "Notfallplan – Was tun bei einem Hack?",
+      "bullets": [
+        "Ruhe bewahren und infizierte Geräte sofort vom Internet trennen",
+        "Passwörter von einem sauberen Gerät aus ändern",
+        "Bankkonten und Kreditkarten sperren lassen",
+        "Bei Datenverlust: Anzeige bei der Polizei erstatten"
+      ],
+      "notes": "Sollte es trotz aller Vorsicht doch einmal zu einem Sicherheitsvorfall kommen, gilt vor allem: Ruhe bewahren. Trennen Sie das betroffene Gerät sofort vom Internet (WLAN ausschalten oder LAN-Kabel ziehen), um die Ausbreitung zu verhindern. Ändern Sie Ihre wichtigsten Passwörter von einem anderen, sicheren Gerät aus und informieren Sie gegebenenfalls Ihre Bank.",
+      "image_name": "cyber_emergency.png"
+    },
+    {
+      "slide_number": 30,
+      "title": "Zusammenfassung",
+      "bullets": [
+        "1. Nutze starke, einzigartige Passwörter & 2FA",
+        "2. Sei misstrauisch bei E-Mails, Links & Downloads",
+        "3. Halte Betriebssystem und Software immer aktuell",
+        "Mit diesen einfachen Regeln bist du bereits sehr gut geschützt!"
+      ],
+      "notes": "Fassen wir die drei wichtigsten goldenen Regeln für Ihre digitale Sicherheit zusammen: Erstens, nutzen Sie starke, einzigartige Passwörter kombiniert mit der Zwei-Faktor-Authentisierung. Zweitens, bleiben Sie aufmerksam und skeptisch bei E-Mails, Links und Downloads. Und drittens, halten Sie Ihre Software immer auf dem neuesten Stand. Vielen Dank für Ihre Aufmerksamkeit und bleiben Sie sicher online!",
+      "image_name": "cyber_title.png"
+    }
+  ]
+}
